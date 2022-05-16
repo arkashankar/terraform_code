@@ -216,7 +216,7 @@ resource "aws_autoscaling_policy" "backend-policy" {
 ############################ APPLICATION LOAD BALANCER ###########################################################################################################
 
 resource "aws_lb" "my-aws-alb" {
-  name     = "neptune-alb"
+  name     = "neptune-alb-2"
   internal = false
 
   security_groups = [
