@@ -109,7 +109,7 @@ resource "aws_security_group" "busybox" {
 }
 
 resource "aws_security_group" "elb-sg" {
-  name = "terraform-sample-elb-sg"
+  name = "terraform-sample-jenkins-sg"
   vpc_id      = "vpc-0643d4df02584df6e"
   # Allow all outbound
   egress {
